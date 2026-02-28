@@ -66,11 +66,8 @@
 ## 📊 GitHub stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&hide_title=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&hide_border=true" height="160" />
   <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" height="160" />
 </div>
-
-
 
 ---
 
@@ -82,6 +79,3 @@
 - Security by default (least privilege, scoped access, safe logging)
 - Evidence-driven changes (benchmarks + measurable deltas)
 
----
-
-<sub>Last update: keep this README short, accurate, and aligned with your repos. If something isn’t true yet, I don’t claim it.</sub>
