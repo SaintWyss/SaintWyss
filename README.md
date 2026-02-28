@@ -74,7 +74,22 @@
   <img src="https://streak-stats.demolab.com?user=SaintWyss&theme=tokyonight&hide_border=true" width="100%" alt="github streak" />
 </p>
 
+<h2>🧰 Tech Stack & Tools</h2>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111111" />
+</p>
 </td>
+
 </tr>
 </table>
 
@@ -91,7 +106,52 @@
 
 ---
 
-<h2>⚙️ Evaluation-First CI/CD</h2>
+<!-- =======================
+     RAG CORP — BOXED SECTION
+     ======================= -->
+
+<table>
+<tr>
+<td valign="top">
+
+<h2>🧠 RAG Corp</h2>
+
+<p>
+  <b>Production-grade RAG platform</b> focused on <b>evaluation</b>, <b>security</b>, and <b>scale</b>.
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Repository-Private-FF2D55?style=for-the-badge&logo=github&logoColor=white" alt="Private repository" />
+  <img src="https://img.shields.io/badge/Focus-Eval%20%2B%20Security%20%2B%20Scale-6E40C9?style=for-the-badge&logo=databricks&logoColor=white" alt="Focus" />
+</p>
+
+<table>
+<tr>
+<td width="56%" valign="top">
+
+<h3>What it does</h3>
+
+<ul>
+  <li><b>Ingestion</b>: deterministic pipeline + connectors</li>
+  <li><b>Retrieval</b>: hybrid (semantic + BM25) + reranking</li>
+  <li><b>Grounded answers</b>: citations-first generation</li>
+  <li><b>Evaluation gates</b>: regression checks before merge</li>
+  <li><b>Defensive limits</b>: fail-fast, anti-OOM, scoped access (anti-IDOR)</li>
+</ul>
+
+<h3>RAG Evaluation Stack</h3>
+
+| Layer          | Target metrics                        | Methodology               |
+| :------------- | :------------------------------------ | :------------------------ |
+| **Retrieval**  | MRR, Recall@k, NDCG, Latency          | Benchmarks + ablations    |
+| **Reranking**  | Win-rate, NDCG lift                   | Baselines + comparisons   |
+| **Generation** | Groundedness, Faithfulness, Relevance | LLM-as-a-judge + datasets |
+| **System**     | Cost, Limits, Error rate              | Observability + defenses  |
+
+</td>
+<td width="44%" valign="top">
+
+<h3>Evaluation-First CI/CD</h3>
 
 ```mermaid
 flowchart TD
@@ -108,9 +168,7 @@ flowchart TD
   style F fill:#6e40c9,stroke:#333,stroke-width:2px,color:#fff
 ```
 
----
-
-<h2>🏗️ System Architecture: Production RAG</h2>
+<h3>Production RAG Architecture</h3>
 
 ```mermaid
 graph LR
@@ -132,66 +190,11 @@ graph LR
   style H fill:#6e40c9,stroke:#ffffff,stroke-width:2px,color:#ffffff
 ```
 
----
-
-<table>
-<tr>
-<td width="58%" valign="top">
-
-<h2>🚀 Featured Projects</h2>
-
-<h3>🧠 RAG Corp</h3>
-
-<p>
-  Production-grade knowledge platform focused on <b>evaluation</b>, <b>security</b>, and <b>scale</b>.
-</p>
-
-<ul>
-  <li><b>Ingestion</b>: deterministic pipeline + connectors</li>
-  <li><b>Retrieval</b>: hybrid (semantic + BM25) + reranking</li>
-  <li><b>Evaluation</b>: groundedness/faithfulness + regression gates</li>
-  <li><b>Infra</b>: defensive limits, CI gates, observability</li>
-</ul>
-
-<p align="left">
-  <a href="https://github.com/SaintWyss/rag-corp" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
-  </a>
-</p>
-
-<h3>🧩 Backend & Platform Work</h3>
-
-<ul>
-  <li>RBAC/ACL, scoping, typed errors, safe logs</li>
-  <li>DTO/contract discipline, fail-fast validations</li>
-  <li>reproducible CLI tooling, templates, playbooks</li>
-</ul>
-
-<p align="left">
-  <a href="https://github.com/SaintWyss?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/View%20Repositories-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Repositories" />
-  </a>
-</p>
-
-</td>
-<td width="42%" valign="top">
-
-<h2>🧬 RAG Evaluation Stack</h2>
-
-| Layer          | Target metrics                        | Methodology               |
-| :------------- | :------------------------------------ | :------------------------ |
-| **Retrieval**  | MRR, Recall@k, NDCG, Latency          | Benchmarks + ablations    |
-| **Reranking**  | Win-rate, NDCG lift                   | Baselines + comparisons   |
-| **Generation** | Groundedness, Faithfulness, Relevance | LLM-as-a-judge + datasets |
-| **System**     | Cost, Limits, Error rate              | Observability + defenses  |
-
 </td>
 </tr>
 </table>
 
----
-
-<h2>🧰 Tech Stack & Tools</h2>
+<h3>Tech stack used</h3>
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -199,17 +202,24 @@ graph LR
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/pgvector-111111?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111111" />
 </p>
+
+</td>
+</tr>
+</table>
+
+<!-- =======================
+     END RAG CORP — BOXED SECTION
+     ======================= -->
 
 ---
 
 <h2>💬 Languages</h2>
 
-* 🇪🇸 <b>Spanish</b>: Native
-* 🇺🇸 <b>English</b>: Professional working proficiency (C1 / technical)
+<ul>
+  <li>🇪🇸 <b>Spanish</b>: Native</li>
+  <li>🇺🇸 <b>English</b>: Professional working proficiency (C1 / technical)</li>
+</ul>
