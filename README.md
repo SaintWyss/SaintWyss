@@ -28,8 +28,6 @@
   <img src="https://img.shields.io/badge/Offline--First-00C2FF?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
 
----
-
 <table>
 <tr>
 <td width="62%" valign="top">
@@ -93,8 +91,6 @@
 </tr>
 </table>
 
----
-
 <h2>🛠️ Core Engineering Principles</h2>
 
 <ul>
@@ -103,8 +99,6 @@
   <li><b>🧨 Security by Design</b> — prompt injection defense, granular access control (RBAC/ACL), data-leak mitigation (anti-IDOR).</li>
   <li><b>🧪 CI/CD & Repo Discipline</b> — contracts, types, tests, and performance regressions validated in CI; small incremental PRs.</li>
 </ul>
-
----
 
 <!-- =======================
      RAG CORP — BOXED SECTION
