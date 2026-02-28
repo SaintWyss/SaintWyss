@@ -9,14 +9,11 @@
 
 <p align="left">
   <!-- Contact (replace links) -->
-  <a href="https://www.linkedin.com/in/YOUR_LINKEDIN/" target="_blank">
+  <a href="https://www.linkedin.com/in/[YOUR_LINKEDIN](https://www.linkedin.com/in/santiago-vicente-scacciaferro-wyss-48b69a223/)/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:YOUR_EMAIL@example.com">
+  <a href="mailto:sanv.swyss@gmail.com">
     <img src="https://img.shields.io/badge/Email-333333?logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://YOUR_PORTFOLIO_URL" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-111111?logo=vercel&logoColor=white" />
   </a>
 </p>
 
@@ -59,13 +56,10 @@
 ## 📌 Featured projects
 
 - **RAG Corp** — production-grade RAG platform (workspaces, connectors, evals, CI gates)  
-  👉 https://github.com/YOUR_GITHUB_USERNAME/rag-corp
 
 - **RAG Evaluation Suite** — retrieval + judge metrics, datasets, reproducible benchmarking  
-  👉 https://github.com/YOUR_GITHUB_USERNAME/YOUR_EVAL_REPO
 
 - **Security / CTF notes & tooling** — practical security learning and utilities  
-  👉 https://github.com/YOUR_GITHUB_USERNAME/YOUR_SECURITY_REPO
 
 ---
 
@@ -76,9 +70,7 @@
   <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" height="160" />
 </div>
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=YOUR_GITHUB_USERNAME&layout=compact&langs_count=8&theme=tokyonight&hide_border=true" height="160" />
-</div>
+
 
 ---
 
