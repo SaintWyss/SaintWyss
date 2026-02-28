@@ -1,21 +1,31 @@
-<h1 align="left">Hi, I'm Santiago 👋</h1>
+<h1 align="left">Santiago Vicente Scacciaferro Wyss 👋</h1>
+
+<h3 align="left">
+  GenAI & Systems Engineer · <b>Production-Grade RAG</b> · <b>Secure Systems</b> · <b>Observability</b>
+</h3>
 
 <p align="left">
-  Systems Engineering student (UTN FRRe) focused on <b>GenAI Engineering</b>, <b>secure backend</b>, and <b>production-grade RAG</b>.
-  <br/>
-  I build systems with strong <b>evaluation</b>, <b>observability</b>, and <b>quality gates</b>.
+  <i>“I build AI systems where evaluation isn't an afterthought, but the foundation — pro engineering over fragile demos.”</i>
 </p>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/santiago-vicente-scacciaferro-wyss-48b69a223/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:sanv.swyss@gmail.com">
-    <img src="https://img.shields.io/badge/Email-333333?logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <a href="https://github.com/SaintWyss?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/Repositories-111111?logo=github&logoColor=white" />
+  <a href="https://github.com/SaintWyss" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
+  <img src="https://komarev.com/ghpvc/?username=SaintWyss&style=for-the-badge&color=ff2d55" alt="profile views" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Evaluation--First-6E40C9?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/Clean%20%2F%20Hexagonal-2EA043?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Security--First-FF2D55?style=for-the-badge&logo=securityscorecard&logoColor=white" />
+  <img src="https://img.shields.io/badge/Offline--First-00C2FF?style=for-the-badge&logo=linux&logoColor=white" />
 </p>
 
 ---
@@ -24,34 +34,45 @@
 <tr>
 <td width="62%" valign="top">
 
-## Focus
+<h2>🧠 About Me</h2>
 
-- **RAG / Retrieval**: hybrid retrieval, reranking, grounded answers with citations  
-- **Evaluation-first**: MRR / Recall@k / NDCG, judge-based evals, reproducible benchmarking  
-- **Security-first backend**: auth, RBAC/ACL, scoped access (anti-IDOR), defensive limits (fail-fast, anti-OOM)  
-- **Architecture**: Clean / Hexagonal, ports & adapters, strict dependency boundaries  
+<p>
+  I’m a <b>4th-year Systems Engineering</b> student at <b>UTN FRRe</b>, building systems where <b>quality</b>, <b>security</b>, and <b>measurement</b> are non-negotiable.
+</p>
 
-## Current work
+<p>
+  <b>⚙️ GenAI / RAG Engineering</b><br/>
+  Hybrid retrieval, reranking, and grounded generation with citations.
+</p>
 
-- Building **RAG Corp**: a production-grade knowledge platform  
-  - Workspaces, ingestion, retrieval, streaming, connectors  
-  - CI gating and deterministic validation tooling  
-  - Benchmark-driven improvements with measurable deltas  
+<p>
+  <b>📏 Evaluation-First</b><br/>
+  MRR / Recall@k / NDCG, reproducible suites, CI regressions tracked by commit/SHA.
+</p>
+
+<p>
+  <b>🛡️ Security-First</b><br/>
+  RBAC/ACL, scoped access (anti-IDOR), defensive limits (fail-fast, anti-OOM).
+</p>
+
+<p>
+  <b>🧱 Architecture</b><br/>
+  Clean / Hexagonal, SOLID/GRASP, strict boundaries, typed errors.
+</p>
+
+<p>
+  <b>🔭 Workflow & Observability</b><br/>
+  WSL/Linux, structured logging, deterministic offline-first tooling, strict PR discipline (1 capability = 1 PR).
+</p>
 
 </td>
 <td width="38%" valign="top">
 
-## GitHub
+<h2>📊 GitHub</h2>
 
-<img src="https://komarev.com/ghpvc/?username=SaintWyss&style=flat&color=0A66C2" alt="profile views" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=SaintWyss&show_icons=true&hide_title=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" height="160" alt="github stats" />
-
-<br/><br/>
-
-<img src="https://streak-stats.demolab.com?user=SaintWyss&theme=tokyonight&hide_border=true" height="160" alt="github streak" />
+<p>
+  <img src="https://streak-stats.demolab.com?user=SaintWyss&theme=tokyonight&hide_border=true" width="100%" alt="github streak" />
+</p>
 
 </td>
 </tr>
@@ -59,78 +80,136 @@
 
 ---
 
-## Engineering highlights
+<h2>🛠️ Core Engineering Principles</h2>
 
-- **Evaluation as a first-class citizen**: retrieval metrics (MRR / Recall@k / NDCG) + judge-based evals + regression detection in CI  
-- **Reproducibility by default**: benchmark runs tracked by git SHA, deterministic CLI tooling, dataset versioning  
-- **Architecture rigor**: Clean/Hexagonal boundaries, typed errors, explicit contracts/DTOs, strict dependency rules  
-- **Security posture**: scoped access (anti-IDOR), least privilege, safe logging, defensive limits (fail-fast, anti-OOM)  
-- **Observability mindset**: structured logs + metrics + audit trails (best-effort) for production debugging  
-
----
-
-## How I work
-
-- I prefer **small, reviewable PRs** (one capability per PR)  
-- **CI is the source of truth**: tests, linting, contracts, and eval gates  
-- I optimize with **measurable deltas**, not opinions (benchmarks before/after)  
-- I document decisions with short ADRs when tradeoffs matter  
+<ul>
+  <li><b>🎯 Data-Driven Optimization</b> — measurable deltas, not intuition. Benchmarks tracked by commit/SHA; if it doesn’t improve metrics, it doesn’t merge.</li>
+  <li><b>🧭 Architecture Rigor</b> — Clean/Hexagonal + SOLID/GRASP. Business logic fully decoupled from vendors (LLMs / Vector DBs).</li>
+  <li><b>🧨 Security by Design</b> — prompt injection defense, granular access control (RBAC/ACL), data-leak mitigation (anti-IDOR).</li>
+  <li><b>🧪 CI/CD & Repo Discipline</b> — contracts, types, tests, and performance regressions validated in CI; small incremental PRs.</li>
+</ul>
 
 ---
 
-## RAG evaluation stack
+<h2>⚙️ Evaluation-First CI/CD</h2>
 
-- **Retrieval**: Recall@k, MRR, NDCG, latency/cost tracking  
-- **Reranking**: win-rate vs baseline, NDCG lift, ablations  
-- **Generation**: groundedness/faithfulness checks + judge-based scoring  
-- **Datasets**: synthetic + curated, versioned, reproducible runs in CI  
+```mermaid
+flowchart TD
+  A[Git PR] --> B{CI/CD Gates}
+  B --> C[Linter & Typed Errors]
+  B --> D[Security & RBAC Tests]
+  B --> E[RAG Eval Suite]
+  E --> F((MRR & NDCG))
+  F -->|Delta < 0 baseline| G[❌ Block Merge]
+  F -->|Delta ≥ 0 baseline| H[✅ Allow Merge]
+
+  style G fill:#d73a49,stroke:#333,stroke-width:2px,color:#fff
+  style H fill:#2ea043,stroke:#333,stroke-width:2px,color:#fff
+  style F fill:#6e40c9,stroke:#333,stroke-width:2px,color:#fff
+```
 
 ---
 
-## Tech stack
+<h2>🏗️ System Architecture: Production RAG</h2>
+
+```mermaid
+graph LR
+  subgraph "Ingestion Pipeline (Offline)"
+    A[Raw Data] -->|Connectors| B(Deterministic Chunking)
+    B --> C(Embedding Model)
+    C -->|Vector + Metadata| D[(pgvector / PostgreSQL)]
+  end
+
+  subgraph "Retrieval & Generation (Online)"
+    E[User Query] --> F(Hybrid Search: BM25 + Semantic)
+    D -.-> F
+    F --> G(Cross-Encoder Reranker)
+    G -->|Top K Context| H{Guardrails + Eval}
+    H -->|Groundedness Check| I[Response w/ Citations]
+  end
+
+  style D fill:#336791,stroke:#ffffff,stroke-width:2px,color:#ffffff
+  style H fill:#6e40c9,stroke:#ffffff,stroke-width:2px,color:#ffffff
+```
+
+---
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+<h2>🚀 Featured Projects</h2>
+
+<h3>🧠 RAG Corp</h3>
+
+<p>
+  Production-grade knowledge platform focused on <b>evaluation</b>, <b>security</b>, and <b>scale</b>.
+</p>
+
+<ul>
+  <li><b>Ingestion</b>: deterministic pipeline + connectors</li>
+  <li><b>Retrieval</b>: hybrid (semantic + BM25) + reranking</li>
+  <li><b>Evaluation</b>: groundedness/faithfulness + regression gates</li>
+  <li><b>Infra</b>: defensive limits, CI gates, observability</li>
+</ul>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/pgvector-111111?logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=111111" />
+  <a href="https://github.com/SaintWyss/rag-corp" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Repository" />
+  </a>
+</p>
+
+<h3>🧩 Backend & Platform Work</h3>
+
+<ul>
+  <li>RBAC/ACL, scoping, typed errors, safe logs</li>
+  <li>DTO/contract discipline, fail-fast validations</li>
+  <li>reproducible CLI tooling, templates, playbooks</li>
+</ul>
+
+<p align="left">
+  <a href="https://github.com/SaintWyss?tab=repositories" target="_blank">
+    <img src="https://img.shields.io/badge/View%20Repositories-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Repositories" />
+  </a>
+</p>
+
+</td>
+<td width="42%" valign="top">
+
+<h2>🧬 RAG Evaluation Stack</h2>
+
+| Layer          | Target metrics                        | Methodology               |
+| :------------- | :------------------------------------ | :------------------------ |
+| **Retrieval**  | MRR, Recall@k, NDCG, Latency          | Benchmarks + ablations    |
+| **Reranking**  | Win-rate, NDCG lift                   | Baselines + comparisons   |
+| **Generation** | Groundedness, Faithfulness, Relevance | LLM-as-a-judge + datasets |
+| **System**     | Cost, Limits, Error rate              | Observability + defenses  |
+
+</td>
+</tr>
+</table>
+
+---
+
+<h2>🧰 Tech Stack & Tools</h2>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/pgvector-111111?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111111" />
 </p>
 
 ---
 
-## Featured projects
+<h2>💬 Languages</h2>
 
-### 🧠 RAG Corp — production-grade RAG platform
-- Workspaces, ingestion pipeline, retrieval + reranking, grounded answering  
-- Evaluation & CI gating: reproducible benchmark runs  
-- Clean / Hexagonal architecture, typed errors, strict boundaries  
-👉 https://github.com/SaintWyss/rag-corp
-
-### 📏 RAG Evaluation — benchmarking & regressions
-- Retrieval metrics + judge-based evals + CI-friendly regression checks  
-👉 https://github.com/SaintWyss?tab=repositories&q=eval&type=&language=&sort=
-
-### 🛡️ Security / CTF — notes & utilities
-- Practical security learning, writeups, scripts/tools  
-👉 https://github.com/SaintWyss?tab=repositories&q=ctf&type=&language=&sort=
-
----
-
-## Languages
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=SaintWyss&layout=compact&langs_count=10&theme=tokyonight&hide_border=true" height="160" alt="top languages" />
-</div>
-
----
-
-## Spoken languages
-
-- Spanish (native), English (professional), Italian (conversational)
+* 🇪🇸 <b>Spanish</b>: Native
+* 🇺🇸 <b>English</b>: Professional working proficiency (C1 / technical)
