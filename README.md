@@ -1,4 +1,4 @@
-<h1 align="left">Santiago Vicente Scacciaferro Wyss 👋</h1>
+<h1 align="left">Santiago Vicente Scacciaferro Wyss </h1>
 
 <h3 align="left">
   GenAI & Systems Engineer · <b>Production-Grade RAG</b> · <b>Secure Systems</b> · <b>Observability</b>
