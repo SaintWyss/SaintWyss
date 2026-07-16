@@ -2,7 +2,11 @@
 
 <p align="center">
   <strong>Estudiante avanzado de Ingeniería en Sistemas de Información</strong><br/>
-  Software · Inteligencia artificial aplicada · Ciberseguridad · Sistemas distribuidos
+  Ingeniería de software · Ciberseguridad · Inteligencia artificial aplicada · Backend y APIs
+</p>
+
+<p align="center">
+  Resistencia, Chaco, Argentina
 </p>
 
 <p align="center">
@@ -17,50 +21,83 @@
 
 ---
 
-## Sobre mí
+## Perfil profesional
 
-Soy estudiante de cuarto año de **Ingeniería en Sistemas de Información en la UTN Facultad Regional Resistencia**. Trabajo en la intersección entre ingeniería de software, inteligencia artificial aplicada y seguridad.
+Soy estudiante de cuarto año de **Ingeniería en Sistemas de Información en la UTN Facultad Regional Resistencia**, con experiencia en investigación aplicada, desarrollo de software, ciberseguridad e inteligencia artificial.
 
-Además de desarrollar productos propios, participo como:
+Trabajo en proyectos TIC relacionados con:
 
-- **Becario de investigación en GIESIN**, dentro de una línea de inteligencia artificial aplicada a la educación técnica.
-- **Ayudante de cátedra de Algoritmos y Estructuras de Datos**.
-- Estudiante de formación especializada en **desarrollo seguro, pentesting web y arquitectura de software**.
+- Desarrollo web, backend y APIs REST.
+- Arquitecturas modulares y software mantenible.
+- Automatización y soluciones con inteligencia artificial aplicada.
+- Desarrollo seguro, análisis técnico y ciberseguridad empresarial.
+- Organización de evidencia, trazabilidad y documentación profesional.
 
-Mi objetivo no es construir demostraciones aisladas. Diseño sistemas completos: modelo de dominio, arquitectura, seguridad, pruebas, observabilidad, despliegue, documentación y operación.
+Mi enfoque es construir sistemas completos, no demostraciones aisladas. Integro dominio, arquitectura, seguridad, pruebas, observabilidad, despliegue, documentación y operación.
 
-## Áreas de trabajo
+## Experiencia e investigación
 
-| Área | En qué trabajo |
-|---|---|
-| **Inteligencia artificial aplicada** | RAG, agentes, herramientas, memoria, evaluación, citas y automatización controlada. |
-| **Ingeniería de software** | Arquitectura limpia y hexagonal, contratos, testing, CI/CD y documentación técnica. |
-| **Ciberseguridad** | Modelado de amenazas, RBAC, prevención de IDOR, hardening, auditoría y desarrollo seguro. |
-| **Sistemas y automatización** | Linux, servicios, redes locales, control de dispositivos y aplicaciones multiplataforma. |
-| **Datos y plataformas** | PostgreSQL, pgvector, Redis, colas, almacenamiento de objetos y observabilidad. |
+### CINAPTIC — Becario de investigación BAR en ciberseguridad
 
-## Portafolio técnico principal
+**2026 — Actualidad · Resistencia, Chaco**
 
-Estos sistemas se encuentran en repositorios privados mientras completo su productización, seguridad y publicación. Los presento como parte de mi portafolio porque representan mi trabajo actual de ingeniería de extremo a extremo.
+Participo en investigación aplicada a la ciberseguridad empresarial.
 
-### Wyss
+- Analizo controles de seguridad, arquitecturas seguras e inteligencia de amenazas.
+- Reviso legislación, estándares y marcos de referencia nacionales e internacionales.
+- Evalúo su aplicabilidad en organizaciones y entornos empresariales.
+- Colaboro en propuestas que integran controles, arquitecturas y tecnologías de seguridad.
 
-Asistente personal multi-dispositivo para controlar y automatizar computadoras, servicios y flujos cotidianos.
+### SME Cyber — Plataforma de evaluación de ciberseguridad para PyMEs
 
-- Ciclo completo de solicitud, planificación, política, confirmación, ejecución, verificación y auditoría.
-- Modo determinista y soporte para modelos de lenguaje mediante gateway.
-- Memoria del propietario, rutinas, resumen diario, integración con Notion e intake mediante n8n.
-- PWA, emparejamiento seguro y aplicación Android.
-- Confirmaciones obligatorias, journal de ejecución y deshacer cuando la operación lo permite.
+**2026 — Actualidad · Resistencia, Chaco**
+
+Desarrollo una plataforma para evaluar madurez y riesgo de ciberseguridad mediante assessments, scoring determinístico y reportes técnicos y ejecutivos.
+
+- Backend con Python, FastAPI, APIs REST, SQLAlchemy y Alembic.
+- Persistencia compatible con SQLite y PostgreSQL.
+- Frontend con React, TypeScript y Tailwind CSS.
+- Arquitectura modular, trazabilidad y separación entre dominio e infraestructura.
+- Uso de Gemini y Claude para generar recomendaciones, sin delegar al modelo el cálculo del score.
+
+### GIESIN — Becario de investigación BAR
+
+**2024 — 2025 · UTN FRRe**
+
+Trabajé durante dos años en investigación aplicada en inteligencia artificial, análisis de datos y educación técnica.
+
+- Utilicé herramientas con enfoque RAG en contextos académicos.
+- Participé en el diseño de instrumentos de observación y análisis técnico.
+- Organicé evidencia, indicadores, citas y resultados con rigor metodológico.
+- Fui coautor de un trabajo académico galardonado y presentado en **CoNaIISI 2025**.
+
+### Ayudante de Cátedra — Algoritmos y Estructuras de Datos
+
+**2023 · UTN FRRe**
+
+- Acompañé a estudiantes en programación, algoritmos y estructuras de datos.
+- Fortalecí mi capacidad para explicar conceptos técnicos y orientar la resolución de problemas.
+
+## Proyectos de ingeniería destacados
 
 ### RAG Corp
 
-Plataforma RAG multi-tenant orientada a organizaciones y conocimiento corporativo.
+Plataforma RAG multi-tenant para organizaciones y conocimiento corporativo.
 
-- Ingesta documental, embeddings, búsqueda híbrida, reranking y respuestas con citas.
-- Organizaciones, miembros, invitaciones, RBAC, MFA, SSO, API keys y webhooks.
-- Conectores, crawler web, observabilidad, evaluación, límites y auditoría.
-- Backend FastAPI, frontend Next.js, PostgreSQL con pgvector, Redis y MinIO.
+- Backend con FastAPI y frontend con Next.js.
+- PostgreSQL, pgvector, Redis y almacenamiento de objetos.
+- Ingesta documental, búsqueda híbrida, reranking y respuestas con citas.
+- Evaluación técnica, observabilidad, RBAC, MFA, SSO, API keys y webhooks.
+- Foco en trazabilidad, mantenibilidad, seguridad y escalabilidad.
+
+### Wyss
+
+Asistente personal multi-dispositivo para automatizar computadoras, servicios y flujos cotidianos.
+
+- Ciclo de solicitud, planificación, política, confirmación, ejecución y auditoría.
+- Modo determinista y soporte para modelos de lenguaje mediante gateway.
+- Memoria del propietario, rutinas, resúmenes, Notion, n8n, PWA y Android.
+- Confirmaciones obligatorias y recuperación para acciones sensibles.
 
 ### Pellegrini
 
@@ -68,57 +105,42 @@ Plataforma financiera personal y familiar con dominio determinista e inteligenci
 
 - Movimientos, cuentas, presupuestos, hogares y análisis financiero.
 - Separación estricta entre cálculos financieros y explicaciones generadas por IA.
-- Cifrado, aislamiento por hogar, trazabilidad y clientes web, móvil y escritorio.
-- Arquitectura diseñada para evitar que un modelo de lenguaje altere datos financieros por sí solo.
+- Cifrado, aislamiento por hogar, trazabilidad y clientes multiplataforma.
 
 ### Sarmiento
 
 Sistema nativo para administrar y controlar computadoras dentro de una red local.
 
-- Aplicación de escritorio, control-plane y agentes instalados en cada equipo.
-- Integración con RustDesk para acceso remoto y Deskflow para compartir teclado y mouse.
-- Descubrimiento, enrolamiento, rotación de credenciales, estado de equipos y recuperación.
-- Diseñado como programa de escritorio, no únicamente como panel web.
+- Aplicación de escritorio, control-plane y agentes instalados en los equipos.
+- Integración con RustDesk y Deskflow.
+- Enrolamiento, rotación de credenciales, estado de equipos y recuperación.
 
 ### Borjes
 
 Explorador visual de archivos en tres dimensiones desarrollado con Rust y Bevy.
 
 - Navegación por carpetas como constelaciones espaciales.
-- Búsqueda global, lentes temáticos, favoritos, pins y ranking por frecuencia y recencia.
-- Integración con el escritorio Linux y foco en consumo reducido de recursos.
-- Arquitectura basada en ECS para separar datos, comportamiento y representación visual.
+- Búsqueda global, lentes, favoritos y ranking por frecuencia y recencia.
+- Integración con Linux y arquitectura ECS.
 
 ### Güemes
 
 Plataforma de entrenamiento físico, progreso personal y competencia social.
 
 - Planes, sesiones, métricas, actividad social y clasificación.
-- Funcionamiento offline, sincronización y privacidad de información corporal.
-- Controles de fraude, moderación y separación entre datos privados y contenido público.
-- API FastAPI, cliente web y persistencia relacional.
+- Funcionamiento offline, sincronización y privacidad de datos corporales.
+- Controles de fraude, moderación y separación entre información privada y pública.
 
 ### Alberdi
 
-Motor experimental para detectar y ejecutar oportunidades de arbitraje en mercados predictivos.
+Motor experimental de detección y ejecución de oportunidades de arbitraje en mercados predictivos.
 
-- Modos scanner, paper trading y operación real claramente separados.
+- Modos scanner, paper trading y operación real separados.
 - Cálculo de comisiones, profundidad, libros desactualizados y riesgo máximo.
-- Ejecución emparejada, reconciliación y pausa automática ante resultados parciales.
-- El sistema prioriza control de riesgo y validación; no promete rentabilidad.
+- Reconciliación y pausa automática ante ejecuciones parciales.
+- Orientado al control de riesgo; no promete rentabilidad.
 
-## Investigación y docencia
-
-Formo parte del grupo **GIESIN de UTN FRRe**, trabajando en inteligencia artificial aplicada a educación técnica y aula invertida.
-
-Mi línea de trabajo incluye:
-
-- Diseño y análisis de instrumentos de observación educativa.
-- Categorización de evidencias con herramientas de IA generativa.
-- Trazabilidad entre observaciones, indicadores, citas y conclusiones.
-- Presentación de resultados en **CONAIISI 2024 y 2025**.
-
-Como ayudante de cátedra, trabajo con fundamentos de programación, estructuras de datos, resolución de problemas y buenas prácticas de desarrollo.
+> Los proyectos anteriores permanecen privados mientras completo su productización, seguridad y publicación. Los presento como evidencia de trabajo de ingeniería de extremo a extremo.
 
 ## Proyectos públicos
 
@@ -135,46 +157,55 @@ Herramienta en Python y Docker que replica una estructura local de archivos dent
 Aplicación académica full-stack relacionada con la Bienal Internacional de Escultura del Chaco.
 
 - Frontend, autenticación, administración y documentación de API.
-- Refactorización con Clean Code, tipos estrictos y organización por funcionalidades.
+- Refactorización con Clean Code, tipado estricto y organización por funcionalidades.
 - Documentación de instalación, arquitectura y trabajo práctico integrador.
+
+## Educación
+
+- **Ingeniería en Sistemas de Información** — UTN Facultad Regional Resistencia · 4.º año.
+- **Técnico en Equipos e Instalaciones Electromecánicas** — E.E.T. N.º 22.
+- **Inglés avanzado B2**.
+
+## Formación complementaria
+
+- Desarrollo Web — Informatorio / Gobierno del Chaco · 200 horas.
+- QA Testing Automation — Argentina Programa 4.0 / Egg.
+- Performance — Argentina Programa 4.0 / Egg.
+- Formación en ciberseguridad ofensiva y pentesting web — UTN Córdoba.
+- CompTIA Security+ — en curso.
+- RHCSA / Administración Linux — en curso.
 
 ## Tecnologías
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111111" alt="React" />
-  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111" alt="Linux" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
 </p>
 
-**Backend y datos:** Python, FastAPI, Pydantic, SQLAlchemy, PostgreSQL, pgvector, Redis, MinIO y SQLite.
-
-**Frontend y clientes:** TypeScript, React, Next.js, Tailwind CSS, PWA, Android y Tauri.
-
-**Sistemas:** Rust, Bevy, Docker Compose, Linux, systemd, redes LAN, RustDesk y Deskflow.
-
-**Calidad y seguridad:** pytest, testing de integración y E2E, contratos OpenAPI, threat modeling, RBAC, auditoría, CI/CD y observabilidad.
+| Área | Tecnologías y herramientas |
+|---|---|
+| **Lenguajes** | Python, JavaScript, TypeScript y SQL. |
+| **Frontend** | React, Next.js y Tailwind CSS. |
+| **Backend y APIs** | FastAPI, APIs REST, OpenAPI, Pydantic y SQLAlchemy. |
+| **Datos** | PostgreSQL, pgvector, Redis, SQLite y MinIO. |
+| **Seguridad** | Kali Linux, Burp Suite, Wireshark, Nmap, threat modeling, RBAC y auditoría. |
+| **Ingeniería** | Git, Docker, Linux, CI/CD, testing, observabilidad y documentación técnica. |
 
 ## Cómo trabajo
 
-1. **Primero entiendo el problema.** No elijo tecnologías antes de conocer el dominio, los riesgos y las restricciones.
-2. **Separo el dominio de la infraestructura.** Un proveedor, framework o modelo de IA debe poder reemplazarse sin destruir la lógica central.
-3. **La seguridad forma parte del diseño.** Autorización, validación, límites y auditoría no se agregan al final.
-4. **Pruebo lo que afirmo.** Distingo entre implementado, probado, parcialmente validado y pendiente.
-5. **Documento para operar.** Incluyo arquitectura, decisiones, configuración, pruebas, despliegue, recuperación e incidentes.
-6. **Automatizo con control.** Las acciones sensibles deben tener política, confirmación, evidencia y una estrategia de recuperación.
-
-## Idiomas
-
-- Español: nativo.
-- Inglés: lectura y comunicación técnica profesional.
+1. **Entiendo el dominio antes de elegir tecnologías.**
+2. **Mantengo separada la lógica de negocio de frameworks, proveedores y modelos de IA.**
+3. **Diseño seguridad, autorización, validación y auditoría desde el inicio.**
+4. **Distingo claramente entre implementado, probado, parcialmente validado y pendiente.**
+5. **Documento arquitectura, decisiones, configuración, pruebas, despliegue y recuperación.**
+6. **Uso IA como componente controlado, no como reemplazo de reglas determinísticas críticas.**
 
 ---
 
