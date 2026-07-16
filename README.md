@@ -1,219 +1,183 @@
-<h1 align="left">Santiago Vicente Scacciaferro Wyss </h1>
+<h1 align="center">Santiago Vicente Scacciaferro Wyss</h1>
 
-<h3 align="left">
-  GenAI & Systems Engineer · <b>Production-Grade RAG</b> · <b>Secure Systems</b> · <b>Observability</b>
-</h3>
-
-<p align="left">
-  <i>“I build AI systems where evaluation isn't an afterthought, but the foundation — pro engineering over fragile demos.”</i>
+<p align="center">
+  <strong>Estudiante avanzado de Ingeniería en Sistemas de Información</strong><br/>
+  Software · Inteligencia artificial aplicada · Ciberseguridad · Sistemas distribuidos
 </p>
 
-<p align="left">
-  <a href="https://www.linkedin.com/in/santiago-vicente-scacciaferro-wyss-48b69a223/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+<p align="center">
+  <a href="https://www.linkedin.com/in/santiago-vicente-scacciaferro-wyss-48b69a223/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:sanv.swyss@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Contacto-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Correo electrónico" />
   </a>
-  <a href="https://github.com/SaintWyss" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=SaintWyss&style=for-the-badge&color=ff2d55" alt="profile views" />
+  <img src="https://komarev.com/ghpvc/?username=SaintWyss&style=flat-square&color=6f42c1" alt="Visitas al perfil" />
 </p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Evaluation--First-6E40C9?style=for-the-badge&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/Clean%20%2F%20Hexagonal-2EA043?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Security--First-FF2D55?style=for-the-badge&logo=securityscorecard&logoColor=white" />
-  <img src="https://img.shields.io/badge/Offline--First-00C2FF?style=for-the-badge&logo=linux&logoColor=white" />
-</p>
-
-<table>
-<tr>
-<td width="62%" valign="top">
-
-<h2>🧠 About Me</h2>
-
-<p>
-  I’m a <b>4th-year Systems Engineering</b> student at <b>UTN FRRe</b>, building systems where <b>quality</b>, <b>security</b>, and <b>measurement</b> are non-negotiable.
-</p>
-
-<p>
-  <b>⚙️ GenAI / RAG Engineering</b><br/>
-  Hybrid retrieval, reranking, and grounded generation with citations.
-</p>
-
-<p>
-  <b>📏 Evaluation-First</b><br/>
-  MRR / Recall@k / NDCG, reproducible suites, CI regressions tracked by commit/SHA.
-</p>
-
-<p>
-  <b>🛡️ Security-First</b><br/>
-  RBAC/ACL, scoped access (anti-IDOR), defensive limits (fail-fast, anti-OOM).
-</p>
-
-<p>
-  <b>🧱 Architecture</b><br/>
-  Clean / Hexagonal, SOLID/GRASP, strict boundaries, typed errors.
-</p>
-
-<p>
-  <b>🔭 Workflow & Observability</b><br/>
-  WSL/Linux, structured logging, deterministic offline-first tooling, strict PR discipline (1 capability = 1 PR).
-</p>
-
-</td>
-<td width="38%" valign="top">
-
-<h2>📊 GitHub</h2>
-
-<p>
-  <img src="https://streak-stats.demolab.com?user=SaintWyss&theme=tokyonight&hide_border=true" width="100%" alt="github streak" />
-</p>
-
-<h2>🧰 Tech Stack & Tools</h2>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=111111" />
-</p>
-</td>
-
-</tr>
-</table>
-
-<h2>🛠️ Core Engineering Principles</h2>
-
-<ul>
-  <li><b>🎯 Data-Driven Optimization</b> — measurable deltas, not intuition. Benchmarks tracked by commit/SHA; if it doesn’t improve metrics, it doesn’t merge.</li>
-  <li><b>🧭 Architecture Rigor</b> — Clean/Hexagonal + SOLID/GRASP. Business logic fully decoupled from vendors (LLMs / Vector DBs).</li>
-  <li><b>🧨 Security by Design</b> — prompt injection defense, granular access control (RBAC/ACL), data-leak mitigation (anti-IDOR).</li>
-  <li><b>🧪 CI/CD & Repo Discipline</b> — contracts, types, tests, and performance regressions validated in CI; small incremental PRs.</li>
-</ul>
-
-<!-- =======================
-     RAG CORP — BOXED SECTION
-     ======================= -->
-
-<table>
-<tr>
-<td valign="top">
-
-<h2>🧠 RAG Corp</h2>
-
-<p>
-  <b>Production-grade RAG platform</b> focused on <b>evaluation</b>, <b>security</b>, and <b>scale</b>.
-</p>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Repository-Private-FF2D55?style=for-the-badge&logo=github&logoColor=white" alt="Private repository" />
-  <img src="https://img.shields.io/badge/Focus-Eval%20%2B%20Security%20%2B%20Scale-6E40C9?style=for-the-badge&logo=databricks&logoColor=white" alt="Focus" />
-</p>
-
-<table>
-<tr>
-<td width="56%" valign="top">
-
-<h3>What it does</h3>
-
-<ul>
-  <li><b>Ingestion</b>: deterministic pipeline + connectors</li>
-  <li><b>Retrieval</b>: hybrid (semantic + BM25) + reranking</li>
-  <li><b>Grounded answers</b>: citations-first generation</li>
-  <li><b>Evaluation gates</b>: regression checks before merge</li>
-  <li><b>Defensive limits</b>: fail-fast, anti-OOM, scoped access (anti-IDOR)</li>
-</ul>
-
-<h3>RAG Evaluation Stack</h3>
-
-| Layer          | Target metrics                        | Methodology               |
-| :------------- | :------------------------------------ | :------------------------ |
-| **Retrieval**  | MRR, Recall@k, NDCG, Latency          | Benchmarks + ablations    |
-| **Reranking**  | Win-rate, NDCG lift                   | Baselines + comparisons   |
-| **Generation** | Groundedness, Faithfulness, Relevance | LLM-as-a-judge + datasets |
-| **System**     | Cost, Limits, Error rate              | Observability + defenses  |
-
-</td>
-<td width="44%" valign="top">
-
-<h3>Evaluation-First CI/CD</h3>
-
-```mermaid
-flowchart TD
-  A[Git PR] --> B{CI/CD Gates}
-  B --> C[Linter & Typed Errors]
-  B --> D[Security & RBAC Tests]
-  B --> E[RAG Eval Suite]
-  E --> F((MRR & NDCG))
-  F -->|Delta < 0 baseline| G[❌ Block Merge]
-  F -->|Delta ≥ 0 baseline| H[✅ Allow Merge]
-
-  style G fill:#d73a49,stroke:#333,stroke-width:2px,color:#fff
-  style H fill:#2ea043,stroke:#333,stroke-width:2px,color:#fff
-  style F fill:#6e40c9,stroke:#333,stroke-width:2px,color:#fff
-```
-
-<h3>Production RAG Architecture</h3>
-
-```mermaid
-graph LR
-  subgraph "Ingestion Pipeline (Offline)"
-    A[Raw Data] -->|Connectors| B(Deterministic Chunking)
-    B --> C(Embedding Model)
-    C -->|Vector + Metadata| D[(pgvector / PostgreSQL)]
-  end
-
-  subgraph "Retrieval & Generation (Online)"
-    E[User Query] --> F(Hybrid Search: BM25 + Semantic)
-    D -.-> F
-    F --> G(Cross-Encoder Reranker)
-    G -->|Top K Context| H{Guardrails + Eval}
-    H -->|Groundedness Check| I[Response w/ Citations]
-  end
-
-  style D fill:#336791,stroke:#ffffff,stroke-width:2px,color:#ffffff
-  style H fill:#6e40c9,stroke:#ffffff,stroke-width:2px,color:#ffffff
-```
-
-</td>
-</tr>
-</table>
-
-<h3>Tech stack used</h3>
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/pgvector-111111?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-</p>
-
-</td>
-</tr>
-</table>
-
-<!-- =======================
-     END RAG CORP — BOXED SECTION
-     ======================= -->
 
 ---
 
-<h2>💬 Languages</h2>
+## Sobre mí
 
-<ul>
-  <li>🇪🇸 <b>Spanish</b>: Native</li>
-  <li>🇺🇸 <b>English</b>: Professional working proficiency (C1 / technical)</li>
-</ul>
+Soy estudiante de cuarto año de **Ingeniería en Sistemas de Información en la UTN Facultad Regional Resistencia**. Trabajo en la intersección entre ingeniería de software, inteligencia artificial aplicada y seguridad.
+
+Además de desarrollar productos propios, participo como:
+
+- **Becario de investigación en GIESIN**, dentro de una línea de inteligencia artificial aplicada a la educación técnica.
+- **Ayudante de cátedra de Algoritmos y Estructuras de Datos**.
+- Estudiante de formación especializada en **desarrollo seguro, pentesting web y arquitectura de software**.
+
+Mi objetivo no es construir demostraciones aisladas. Diseño sistemas completos: modelo de dominio, arquitectura, seguridad, pruebas, observabilidad, despliegue, documentación y operación.
+
+## Áreas de trabajo
+
+| Área | En qué trabajo |
+|---|---|
+| **Inteligencia artificial aplicada** | RAG, agentes, herramientas, memoria, evaluación, citas y automatización controlada. |
+| **Ingeniería de software** | Arquitectura limpia y hexagonal, contratos, testing, CI/CD y documentación técnica. |
+| **Ciberseguridad** | Modelado de amenazas, RBAC, prevención de IDOR, hardening, auditoría y desarrollo seguro. |
+| **Sistemas y automatización** | Linux, servicios, redes locales, control de dispositivos y aplicaciones multiplataforma. |
+| **Datos y plataformas** | PostgreSQL, pgvector, Redis, colas, almacenamiento de objetos y observabilidad. |
+
+## Portafolio técnico principal
+
+Estos sistemas se encuentran en repositorios privados mientras completo su productización, seguridad y publicación. Los presento como parte de mi portafolio porque representan mi trabajo actual de ingeniería de extremo a extremo.
+
+### Wyss
+
+Asistente personal multi-dispositivo para controlar y automatizar computadoras, servicios y flujos cotidianos.
+
+- Ciclo completo de solicitud, planificación, política, confirmación, ejecución, verificación y auditoría.
+- Modo determinista y soporte para modelos de lenguaje mediante gateway.
+- Memoria del propietario, rutinas, resumen diario, integración con Notion e intake mediante n8n.
+- PWA, emparejamiento seguro y aplicación Android.
+- Confirmaciones obligatorias, journal de ejecución y deshacer cuando la operación lo permite.
+
+### RAG Corp
+
+Plataforma RAG multi-tenant orientada a organizaciones y conocimiento corporativo.
+
+- Ingesta documental, embeddings, búsqueda híbrida, reranking y respuestas con citas.
+- Organizaciones, miembros, invitaciones, RBAC, MFA, SSO, API keys y webhooks.
+- Conectores, crawler web, observabilidad, evaluación, límites y auditoría.
+- Backend FastAPI, frontend Next.js, PostgreSQL con pgvector, Redis y MinIO.
+
+### Pellegrini
+
+Plataforma financiera personal y familiar con dominio determinista e inteligencia artificial basada en evidencia.
+
+- Movimientos, cuentas, presupuestos, hogares y análisis financiero.
+- Separación estricta entre cálculos financieros y explicaciones generadas por IA.
+- Cifrado, aislamiento por hogar, trazabilidad y clientes web, móvil y escritorio.
+- Arquitectura diseñada para evitar que un modelo de lenguaje altere datos financieros por sí solo.
+
+### Sarmiento
+
+Sistema nativo para administrar y controlar computadoras dentro de una red local.
+
+- Aplicación de escritorio, control-plane y agentes instalados en cada equipo.
+- Integración con RustDesk para acceso remoto y Deskflow para compartir teclado y mouse.
+- Descubrimiento, enrolamiento, rotación de credenciales, estado de equipos y recuperación.
+- Diseñado como programa de escritorio, no únicamente como panel web.
+
+### Borjes
+
+Explorador visual de archivos en tres dimensiones desarrollado con Rust y Bevy.
+
+- Navegación por carpetas como constelaciones espaciales.
+- Búsqueda global, lentes temáticos, favoritos, pins y ranking por frecuencia y recencia.
+- Integración con el escritorio Linux y foco en consumo reducido de recursos.
+- Arquitectura basada en ECS para separar datos, comportamiento y representación visual.
+
+### Güemes
+
+Plataforma de entrenamiento físico, progreso personal y competencia social.
+
+- Planes, sesiones, métricas, actividad social y clasificación.
+- Funcionamiento offline, sincronización y privacidad de información corporal.
+- Controles de fraude, moderación y separación entre datos privados y contenido público.
+- API FastAPI, cliente web y persistencia relacional.
+
+### Alberdi
+
+Motor experimental para detectar y ejecutar oportunidades de arbitraje en mercados predictivos.
+
+- Modos scanner, paper trading y operación real claramente separados.
+- Cálculo de comisiones, profundidad, libros desactualizados y riesgo máximo.
+- Ejecución emparejada, reconciliación y pausa automática ante resultados parciales.
+- El sistema prioriza control de riesgo y validación; no promete rentabilidad.
+
+## Investigación y docencia
+
+Formo parte del grupo **GIESIN de UTN FRRe**, trabajando en inteligencia artificial aplicada a educación técnica y aula invertida.
+
+Mi línea de trabajo incluye:
+
+- Diseño y análisis de instrumentos de observación educativa.
+- Categorización de evidencias con herramientas de IA generativa.
+- Trazabilidad entre observaciones, indicadores, citas y conclusiones.
+- Presentación de resultados en **CONAIISI 2024 y 2025**.
+
+Como ayudante de cátedra, trabajo con fundamentos de programación, estructuras de datos, resolución de problemas y buenas prácticas de desarrollo.
+
+## Proyectos públicos
+
+### [Notion File Uploader](https://github.com/SaintWyss/Notion-File-Uploader)
+
+Herramienta en Python y Docker que replica una estructura local de archivos dentro de una base de datos de Notion.
+
+- Sincronización incremental y jerarquía recursiva.
+- Arquitectura limpia y separación entre dominio, aplicación e infraestructura.
+- Implementación tradicional en Python y alternativa mediante n8n.
+
+### [Bienal del Chaco 2024](https://github.com/SaintWyss/Bienal-del-Chaco-2024)
+
+Aplicación académica full-stack relacionada con la Bienal Internacional de Escultura del Chaco.
+
+- Frontend, autenticación, administración y documentación de API.
+- Refactorización con Clean Code, tipos estrictos y organización por funcionalidades.
+- Documentación de instalación, arquitectura y trabajo práctico integrador.
+
+## Tecnologías
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111111" alt="React" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111111" alt="Linux" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
+
+**Backend y datos:** Python, FastAPI, Pydantic, SQLAlchemy, PostgreSQL, pgvector, Redis, MinIO y SQLite.
+
+**Frontend y clientes:** TypeScript, React, Next.js, Tailwind CSS, PWA, Android y Tauri.
+
+**Sistemas:** Rust, Bevy, Docker Compose, Linux, systemd, redes LAN, RustDesk y Deskflow.
+
+**Calidad y seguridad:** pytest, testing de integración y E2E, contratos OpenAPI, threat modeling, RBAC, auditoría, CI/CD y observabilidad.
+
+## Cómo trabajo
+
+1. **Primero entiendo el problema.** No elijo tecnologías antes de conocer el dominio, los riesgos y las restricciones.
+2. **Separo el dominio de la infraestructura.** Un proveedor, framework o modelo de IA debe poder reemplazarse sin destruir la lógica central.
+3. **La seguridad forma parte del diseño.** Autorización, validación, límites y auditoría no se agregan al final.
+4. **Pruebo lo que afirmo.** Distingo entre implementado, probado, parcialmente validado y pendiente.
+5. **Documento para operar.** Incluyo arquitectura, decisiones, configuración, pruebas, despliegue, recuperación e incidentes.
+6. **Automatizo con control.** Las acciones sensibles deben tener política, confirmación, evidencia y una estrategia de recuperación.
+
+## Idiomas
+
+- Español: nativo.
+- Inglés: lectura y comunicación técnica profesional.
+
+---
+
+<p align="center">
+  Construyo sistemas que puedan explicarse, probarse, operarse y mantenerse.
+</p>
