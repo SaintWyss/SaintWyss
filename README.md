@@ -18,7 +18,7 @@
 
 | Proyecto | Qué estoy construyendo | Tecnologías |
 |---|---|---|
-| [**RAG Corp**](https://github.com/SaintWyss/rag-corp-showcase) | Consulta de documentos con fuentes y separación entre organizaciones. | Python · FastAPI · Next.js · pgvector |
+| [**Wyss**](https://github.com/SaintWyss/Wyss) | Asistente operativo con ejecución supervisada, conocimiento local y auditoría. | Python · React · SQLite |
 | [**Wyss Console**](https://github.com/SaintWyss/wyss-console) | Entorno Linux con terminales persistentes y herramientas de agentes. | Rust · Tauri · Svelte · SQLite |
 | [**Güemes**](https://github.com/SaintWyss/guemes-app) | Registro de entrenamientos offline y sincronización entre dispositivos. | React · TypeScript · FastAPI · IndexedDB |
 
