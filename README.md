@@ -30,56 +30,55 @@
 <tr>
 <td width="62%" valign="top">
 
-<h2>🧠 About Me</h2>
 
+<h2>🧠 About Me</h2>
 
 <p>
   I'm a <b>fourth-year Information Systems Engineering student</b>
-  at <b>Universidad Tecnológica Nacional (UTN FRRe), Argentina</b>,
-  and currently a <b>Cybersecurity Research Fellow</b>,
-  with a strong focus on <b>backend development, applied artificial
-  intelligence, and secure software engineering</b>.
+  at <b>Universidad Tecnológica Nacional (UTN FRRe), Argentina</b>
+  and currently a <b>Cybersecurity Fellow</b>.
 </p>
 
 <p>
-  I work primarily in <b>Linux-based development environments</b>,
+  I develop software across <b>backend systems, applied AI,
+  desktop applications, and embedded systems</b>,
+  with an emphasis on architecture, security, and maintainability.
+</p>
+
+<p>
+  I work primarily in <b>Linux-based environments</b>,
   using Bash, Git, SSH, Docker, and terminal-driven workflows
-  to build, test, and maintain software.
-</p>
-
-<p>
-  I build software projects ranging from <b>REST APIs and AI-powered
-  platforms</b> to desktop applications, automation tools, and
-  embedded systems.
+  for development, testing, and automation.
 </p>
 
 <p>
   <b>⚙️ Backend Engineering</b><br/>
-  RESTful APIs, database design, authentication, authorization,
-  and backend services.
+  REST APIs, database design, authentication,
+  authorization, and service development.
 </p>
 
 <p>
   <b>🧠 Applied AI &amp; RAG</b><br/>
-  Retrieval-augmented generation, LLM integration, hybrid search,
-  AI agents, and evaluation workflows.
+  LLM integration, retrieval pipelines, hybrid search,
+  AI agents, and evaluation.
 </p>
 
 <p>
   <b>🧱 Software Architecture &amp; Quality</b><br/>
-  Clean Architecture, Hexagonal Architecture, SOLID, GRASP,
-  automated testing, CI/CD, and observability.
+  Clean/Hexagonal Architecture, SOLID, GRASP,
+  automated testing, and observability.
 </p>
 
 <p>
-  <b>🛡️ Security by Design</b><br/>
-  Secure API development, access control, threat modeling,
-  auditing, and defensive engineering practices.
+  <b>🛡️ Cybersecurity</b><br/>
+  Application security, access control,
+  security testing, and defensive engineering.
 </p>
 
 <p>
-  Beyond development, I contribute to <b>academic research in applied AI</b>,
-  teach Algorithms and Data Structures, and study practical cybersecurity.
+  I also contribute to <b>academic research in applied AI</b>
+  and serve as a <b>Teaching Assistant in Algorithms
+  and Data Structures</b>.
 </p>
 
 </td>
