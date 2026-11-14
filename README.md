@@ -170,6 +170,19 @@
 </tr>
 </table>
 
+<h4>Architecture at a Glance</h4>
+
+```mermaid
+flowchart TD
+    UI["Svelte 5 / TypeScript UI"] -->|"Typed Tauri commands"| Core["Rust / Tauri 2 Desktop Core"]
+    Core --> Host["Terminal Host"]
+    Host --> PTY["Linux PTY"]
+    Host --> Helper["Screen Helper"]
+    Core --> P1["P1 Control Authority"]
+    Core -. "Guarded capabilities" .-> P2["F8 / P2 Authority"]
+```
+
+
 <table>
 <tr>
 <td valign="top">
@@ -197,6 +210,22 @@
 </td>
 </tr>
 </table>
+
+<h4>Architecture at a Glance</h4>
+
+```mermaid
+flowchart TD
+    Docs["Documents"] --> Process["Parsing & Embeddings"]
+    Process --> Store[("PostgreSQL + pgvector")]
+    UI["Next.js Client"] --> API["FastAPI"]
+    API --> Access["Tenant-Scoped Access Control"]
+    Access --> Retrieve["Hybrid Retrieval"]
+    Store --> Retrieve
+    Retrieve --> Rank["Ranking & Context"]
+    Rank --> LLM["LLM Generation"]
+    LLM --> Answer["Answer + Source Citations"]
+```
+
 
 <table>
 <tr>
@@ -228,6 +257,19 @@
 </td>
 </tr>
 </table>
+
+<h4>Architecture at a Glance</h4>
+
+```mermaid
+flowchart TD
+    UI["Jetpack Compose UI"] --> App["Android App / ViewModels"]
+    App --> Domain["Pure Kotlin Domain / Card Rules"]
+    App --> Repo["Data Repositories"]
+    Repo --> DB[("Room / SQLite")]
+    App --> Transfer["JSON Import / Export"]
+    Transfer --> Repo
+```
+
 
 <h2>🧩 More Projects</h2>
 
